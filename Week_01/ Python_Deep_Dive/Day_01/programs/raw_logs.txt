@@ -1,0 +1,4 @@
+[INFO] Server started at 10:00
+[ERROR] Disk not found at 10:05
+[WARNING] High CPU usage at 10:10
+[ERROR] Memory full at 10:15

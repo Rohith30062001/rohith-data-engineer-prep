@@ -1,0 +1,2 @@
+[ERROR] Disk not found at 10:05
+[ERROR] Memory full at 10:15
