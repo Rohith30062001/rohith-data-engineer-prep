@@ -1,0 +1,75 @@
+📅 Week 1 – Python Deep Dive Plan
+------------------------------------------------------------------------------------------------
+🎯 Goal
+------------------------------------------------------------------------------------------------
+Get fully confident in Python core + advanced concepts.
+Be able to write production-quality code for Data Engineering + Backend + Interviews.
+Practice LeetCode Easy → Medium with focus on arrays, strings, hashmaps.
+
+📌 Day-wise Breakdown
+------------------------------------------------------------------------------------------------
+Day 1 – Python Fundamentals Refresh
+Data types: int, float, bool, str, list, tuple, dict, set
+Mutability vs immutability
+List/dict comprehensions
+String manipulation (slicing, formatting, f-strings, regex basics)
+Hands-on: Write a script to parse logs & extract errors
+
+Day 2 – Functions & Modules
+Functions (args, kwargs, default params)
+Lambda functions, map, filter, reduce
+Scope (local, global, nonlocal)
+Modules & imports (absolute vs relative)
+__name__ == "__main__" idiom
+Hands-on: Build a Python module with helper functions
+
+Day 3 – Object-Oriented Programming (OOP)
+Classes & objects
+Instance vs class variables
+Inheritance (single, multiple)
+Encapsulation (private/public), properties & setters
+Polymorphism & method overriding
+Hands-on: Build a Shape class hierarchy (Circle, Square, etc.)
+
+Day 4 – Advanced OOP + Design Patterns
+Dunder methods (__init__, __str__, __repr__, __eq__, __hash__, etc.)
+Class methods vs static methods
+Abstract classes & interfaces (abc module)
+Mixins in Python
+Common design patterns: Singleton, Factory, Observer
+Hands-on: Create a DatabaseConnection singleton class
+
+Day 5 – Iterators & Generators
+Iterables vs iterators (__iter__, __next__)
+Custom iterators
+Generators (yield, generator expressions)
+Use cases: streaming large files, memory efficiency
+Hands-on: Create a generator that streams lines from a huge file
+
+Day 6 – Advanced Python Features
+Decorators (function & class decorators)
+Context managers (with statement, __enter__, __exit__)
+Typing & annotations (typing module, pydantic basics)
+Exceptions & custom exception handling
+Logging (best practices for production code)
+Hands-on: Build a decorator for timing function execution
+
+Day 7 – Concurrency & Interview Prep
+Multithreading vs multiprocessing (GIL)
+concurrent.futures
+AsyncIO basics (async/await, event loop)
+Hands-on: Write a script to download multiple URLs using asyncio
+LeetCode Practice: 5 Easy + 3 Medium (Arrays/Strings/Hashmaps)
+
+📊 Deliverables by End of Week 1
+------------------------------------------------------------------------------------------------
+GitHub repo with: Python utility scripts (log parser, generator, decorators, OOP examples)
+Notes on Python concepts (for interview quick review)
+LeetCode solutions (8–10 problems)
+
+📘 Resources
+------------------------------------------------------------------------------------------------
+Fluent Python by Luciano Ramalho (deep dive reference)
+Python docs: https://docs.python.org/3/
+RealPython tutorials (for practical guides)
+LeetCode (Python easy/medium problems)
