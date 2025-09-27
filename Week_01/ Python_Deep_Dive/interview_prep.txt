@@ -1,0 +1,113 @@
+Python Interview Questions (4 Years Experience)
+
+⸻
+
+1. Core Python Concepts
+	•	Difference between deepcopy and shallow copy? When to use each?
+	•	Explain Python’s memory management (reference counting, garbage collection, __del__).
+	•	What are mutable vs immutable objects? Why are strings immutable?
+	•	Explain decorators. Can you write a decorator to log execution time of a function?
+	•	What are generators? Difference between yield and return.
+	•	Explain __new__ vs __init__. When would you override __new__?
+	•	Difference between is and == in Python.
+	•	How does Python’s with statement (context managers) work internally (__enter__, __exit__)?
+
+⸻
+
+2. Object-Oriented Programming
+	•	Explain difference between class method, static method, and instance method.
+	•	What is multiple inheritance in Python? How does MRO (Method Resolution Order) work?
+	•	How do you implement abstract classes in Python? (using abc module)
+	•	Difference between __str__ and __repr__.
+	•	What are dunder methods (__iter__, __len__, __call__)? Give real use cases.
+
+⸻
+
+3. Concurrency & Parallelism
+	•	What is the Global Interpreter Lock (GIL)? How does it affect multithreading?
+	•	When would you use threading, multiprocessing, and asyncio?
+	•	How does concurrent.futures simplify parallel execution?
+	•	Write code to fetch 100 URLs using:
+	•	Threads
+	•	AsyncIO
+Compare performance.
+
+⸻
+
+4. Data Structures & Algorithms in Python
+	•	Difference between list, tuple, set, dict in terms of performance.
+	•	Time complexity of:
+	•	list.append(), list.pop(), list.insert(0, x)
+	•	dict.get(), dict.update(), in check for dict
+	•	How does Python implement hash tables internally for dictionaries?
+	•	Implement an LRU cache using OrderedDict.
+	•	How would you remove duplicates from a list while preserving order?
+
+⸻
+
+5. Advanced Topics
+	•	Explain Python’s memory model for large integers and strings (interning).
+	•	What are coroutines in Python? Difference from generators.
+	•	Explain metaclasses in Python. When would you use them?
+	•	What are slots (__slots__) in Python classes? Benefits?
+	•	How does Python handle function annotations and type hints? (typing module, Pydantic)
+
+⸻
+
+6. Error Handling & Best Practices
+	•	Difference between Exception, BaseException, and Error.
+	•	When should you use finally block?
+	•	Write a custom exception class and show how to use it.
+	•	What are best practices for error handling in production code?
+
+⸻
+
+7. Libraries & Tools
+	•	Have you worked with NumPy, Pandas, PySpark, Flask/FastAPI, SQLAlchemy, Pytest?
+	•	Write a simple Flask/FastAPI endpoint that accepts a file upload.
+	•	How do you test a Python function using pytest?
+	•	Explain @dataclass — when would you use it over normal classes?
+
+⸻
+
+8. System Design + Python Application
+	•	How would you design a Python service that processes files from S3, runs some computation, and stores results in a DB?
+	•	How do you package a Python project for deployment? (setup.py, requirements.txt, virtualenv, Docker)
+	•	What are your strategies for debugging performance bottlenecks? (profiling tools: cProfile, memory_profiler)
+
+⸻
+
+9. Coding / Problem Solving Questions
+	•	Implement a function to check if a string is a palindrome, ignoring spaces/punctuation.
+	•	Find the first non-repeating character in a string.
+	•	Merge two sorted lists without using built-in sort.
+	•	Write code to implement producer-consumer using queue.Queue.
+	•	Given a list of log entries [timestamp, user_id], return the user who logged in most frequently.
+	•	Write a function to flatten a nested list (e.g., [1, [2, [3, 4]], 5] → [1,2,3,4,5]).
+
+⸻
+
+10. Behavioral / Experience-based
+	•	Tell me about a time you optimized a Python pipeline for performance. What did you change?
+	•	How do you ensure code quality in a team project? (linting, testing, CI/CD)
+	•	Describe a bug you fixed that required deep Python knowledge.
+	•	How do you keep up with changes in Python (new versions, features)?
+
+⸻
+
+📌 Practice Questions (Self-test)
+	1.	Write a decorator that retries a function 3 times if it raises an exception.
+	2.	Implement a generator for Fibonacci numbers.
+	3.	Implement a thread-safe counter with threading.Lock.
+	4.	Write code to parse a huge JSON file line by line without loading it fully in memory.
+	5.	Build a mini-REST API in FastAPI with a GET /users/{id} endpoint.
+	6.	Implement an async function that fetches data from 10 URLs concurrently.
+	7.	Write a class using @dataclass for an Employee (id, name, dept) and show how to sort by dept.
+
+⸻
+
+👉 For 4 years experience, interviewers expect:
+	•	Fluency in Python features (decorators, generators, context managers).
+	•	Practical concurrency knowledge (when to use threads vs processes vs async).
+	•	System thinking (deploying apps, debugging performance, working with databases/APIs).
+	•	Clean code habits (testing, exceptions, type hints).
